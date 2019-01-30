@@ -4,7 +4,6 @@ namespace game {
     export class SceneMgrBehaviourFilter extends ut.EntityFilter {
         list: game.SceneList;
         def: game.SceneDefineContainer;
-        hash: game.SingletonHash;
     }
 
     // there should only be one behaviour of this type.

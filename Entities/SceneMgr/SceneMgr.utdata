@@ -30,40 +30,12 @@
                             "Name": "Bootstrap",
                             "Value": 1
                         },
-                        "targetScenePin": {
-                            "Type": { "Id": "9c0b880f14d14ecf97cfed0029d112f2", "Name": "ScenePin" }
-                        },
-                        "DontDestroy": true,
-                        "sceneToLoad": {
-                            "Type": { "Id": "f3c21eae336949c3958375e02dbe368b", "Name": "ChildScene" }
-                        }
+                        "DontDestroy": true
                     }
                 }, {
                     "Type": { "Id": "7b420db2998b42509187e54e190b5607", "Name": "SceneData" },
                     "Properties": {
-                        "sceneId": {
-                            "$TypeId": 8,
-                            "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
-                            "Id": "95a6f13528c844d58b50354bbba6c6d1",
-                            "Name": "SceneMgr",
-                            "Value": 0
-                        },
-                        "DontDestroy": true,
-                        "sceneToLoad": {
-                            "Type": { "Id": "f3c21eae336949c3958375e02dbe368b", "Name": "ChildScene" },
-                            "Properties": {
-                                "sceneId": {
-                                    "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
-                                    "Items": [{
-                                        "$TypeId": 8,
-                                        "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
-                                        "Id": "3a7cc5332a6b409e92ab4b251969ccd0",
-                                        "Name": "Bootstrap",
-                                        "Value": 1
-                                    }]
-                                }
-                            }
-                        }
+                        "DontDestroy": true
                     }
                 }, {
                     "Type": { "Id": "7b420db2998b42509187e54e190b5607", "Name": "SceneData" },
@@ -74,9 +46,6 @@
                             "Id": "7681d493a27f4d28bd0ed16be2d60296",
                             "Name": "Scene1",
                             "Value": 2
-                        },
-                        "sceneToLoad": {
-                            "Type": { "Id": "f3c21eae336949c3958375e02dbe368b", "Name": "ChildScene" }
                         }
                     }
                 }, {
@@ -88,9 +57,63 @@
                             "Id": "f1cf11f03f484d88922e2e9b602ad388",
                             "Name": "Scene2",
                             "Value": 3
+                        }
+                    }
+                }]
+            },
+            "sceneChildList": {
+                "Type": { "Id": "f3c21eae336949c3958375e02dbe368b", "Name": "ChildScene" },
+                "Items": [{
+                    "Type": { "Id": "f3c21eae336949c3958375e02dbe368b", "Name": "ChildScene" },
+                    "Properties": {
+                        "sceneIdToLoad": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+                            "Id": "3a7cc5332a6b409e92ab4b251969ccd0",
+                            "Name": "Bootstrap",
+                            "Value": 1
+                        }
+                    }
+                }]
+            },
+            "scenePinList": {
+                "Type": { "Id": "9c0b880f14d14ecf97cfed0029d112f2", "Name": "ScenePin" },
+                "Items": [{
+                    "Type": { "Id": "9c0b880f14d14ecf97cfed0029d112f2", "Name": "ScenePin" },
+                    "Properties": {
+                        "pinId": 1,
+                        "srcSceneId": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+                            "Id": "3a7cc5332a6b409e92ab4b251969ccd0",
+                            "Name": "Bootstrap",
+                            "Value": 1
                         },
-                        "sceneToLoad": {
-                            "Type": { "Id": "f3c21eae336949c3958375e02dbe368b", "Name": "ChildScene" }
+                        "destSceneId": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+                            "Id": "7681d493a27f4d28bd0ed16be2d60296",
+                            "Name": "Scene1",
+                            "Value": 2
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "9c0b880f14d14ecf97cfed0029d112f2", "Name": "ScenePin" },
+                    "Properties": {
+                        "pinId": 2,
+                        "srcSceneId": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+                            "Id": "3a7cc5332a6b409e92ab4b251969ccd0",
+                            "Name": "Bootstrap",
+                            "Value": 1
+                        },
+                        "destSceneId": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+                            "Id": "f1cf11f03f484d88922e2e9b602ad388",
+                            "Name": "Scene2",
+                            "Value": 3
                         }
                     }
                 }]
@@ -116,13 +139,6 @@
                 }, {
                     "Type": { "Id": "c5fd033c18604a27b21105484f38cf0a", "Name": "ScenePathData" },
                     "Properties": {
-                        "sceneId": {
-                            "$TypeId": 8,
-                            "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
-                            "Id": "95a6f13528c844d58b50354bbba6c6d1",
-                            "Name": "SceneMgr",
-                            "Value": 0
-                        },
                         "scenePath": "game.SceneMgr"
                     }
                 }, {
@@ -152,7 +168,5 @@
                 }]
             }
         }
-    }, {
-        "Type": { "Id": "057d5195b1f9481fae90220a0828d917", "Name": "SingletonHash" }
     }]
 }]

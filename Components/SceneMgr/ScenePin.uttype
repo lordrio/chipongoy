@@ -14,7 +14,13 @@
         "Visibility": 0
     }, {
         "Id": "d34eef63b6844b43b89b73f67aa52ad4",
-        "Name": "sceneTarget",
+        "Name": "srcSceneId",
+        "FieldType": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "39882744252944489ba06d17f1328e62",
+        "Name": "destSceneId",
         "FieldType": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
         "Array": false,
         "Visibility": 0

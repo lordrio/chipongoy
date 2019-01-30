@@ -12,6 +12,18 @@
         "FieldType": { "Id": "7b420db2998b42509187e54e190b5607", "Name": "SceneData" },
         "Array": true,
         "Visibility": 0
+    }, {
+        "Id": "44d26219570944a29d3f59cd12c4bc85",
+        "Name": "sceneChildList",
+        "FieldType": { "Id": "f3c21eae336949c3958375e02dbe368b", "Name": "ChildScene" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "a2011284c55e4463befa31b78cc37121",
+        "Name": "scenePinList",
+        "FieldType": { "Id": "9c0b880f14d14ecf97cfed0029d112f2", "Name": "ScenePin" },
+        "Array": true,
+        "Visibility": 0
     }],
     "DefaultValue": {
         "Type": { "Id": "b1e45c6f19da49a3a5b196ed07e653ec", "Name": "SceneList" },
