@@ -57,9 +57,12 @@
         { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
         { "Id": "404877ed746affa8a6081ad8161dd8de", "Name": "UTiny.EditorExtensions" },
         { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
-        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" }
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
+        { "Id": "aab685d8205841a8872caf1561aa4ca0", "Name": "Main" },
+        { "Id": "e46c24fb4d9a01e79b109bbcf6d24260", "Name": "UTiny.UILayout" },
+        { "Id": "0b0e260844fa6632977aa15579b42291", "Name": "UTiny.Text" }
     ],
-    "StartupEntityGroup": { "Id": "d3e3439d9b8844f786b8c81d81776482", "Name": "NewEntityGroup" }
+    "StartupEntityGroup": { "Id": "cb01410a4fdd432fbd49f9d5deef5354", "Name": "SceneMgr" }
 },
 {
     "$TypeId": 5,
@@ -67,5 +70,13 @@
     "Name": "Configuration",
     "Enabled": true,
     "Static": false,
-    "Layer": 0
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "575fe161bc06950c954480d04c70c9ab", "Name": "DisplayInfo" },
+        "Properties": {
+            "width": 1920,
+            "height": 1080,
+            "autoSizeToFrame": true
+        }
+    }]
 }]

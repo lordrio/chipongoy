@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "b1e45c6f19da49a3a5b196ed07e653ec",
+    "Name": "SceneList",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "f4361e28ac73412bb2932c535dd9e04b",
+        "Name": "sceneList",
+        "FieldType": { "Id": "7b420db2998b42509187e54e190b5607", "Name": "SceneData" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "3ba4e18328874db9882d32134b02e683",
+        "Name": "currentScene",
+        "FieldType": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "f123bc3d6a4a40b18dd9ee9bb85aec03",
+        "Name": "nextScene",
+        "FieldType": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "2c076321a7594e47a5d3bf9323235794",
+        "Name": "prevScene",
+        "FieldType": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "b1e45c6f19da49a3a5b196ed07e653ec", "Name": "SceneList" },
+        "Properties": {
+            "sceneList": {
+                "Type": { "Id": "7b420db2998b42509187e54e190b5607", "Name": "SceneData" }
+            },
+            "currentScene": {
+                "$TypeId": 8,
+                "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
+                "Id": "5b1868b3c8d84ee6b31c02d24e40d953",
+                "Name": "NULL",
+                "Value": -1
+            }
+        }
+    }
+}]

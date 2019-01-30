@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "f52e1fbf7955470abc023bfad41048c7",
+    "Name": "SceneDataContainer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "d54f6bceef8d4908973d67c0393edcf4",
+        "Name": "sceneList",
+        "FieldType": { "Id": "c5fd033c18604a27b21105484f38cf0a", "Name": "ScenePathData" },
+        "Array": true,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "f52e1fbf7955470abc023bfad41048c7", "Name": "SceneDataContainer" }
+    }
+}]
