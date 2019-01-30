@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "057d5195b1f9481fae90220a0828d917",
+    "Name": "SingletonHash",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "492e24697449418b828661e75e6e0997",
+        "Name": "hash",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "057d5195b1f9481fae90220a0828d917", "Name": "SingletonHash" }
+    }
+}]

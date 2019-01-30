@@ -1,7 +1,7 @@
 ﻿[{
     "$TypeId": 3,
     "Id": "f52e1fbf7955470abc023bfad41048c7",
-    "Name": "SceneDataContainer",
+    "Name": "SceneDefineContainer",
     "ExportFlags": 0,
     "Unlisted": false,
     "Visibility": 0,
@@ -14,6 +14,6 @@
         "Visibility": 0
     }],
     "DefaultValue": {
-        "Type": { "Id": "f52e1fbf7955470abc023bfad41048c7", "Name": "SceneDataContainer" }
+        "Type": { "Id": "f52e1fbf7955470abc023bfad41048c7", "Name": "SceneDefineContainer" }
     }
 }]

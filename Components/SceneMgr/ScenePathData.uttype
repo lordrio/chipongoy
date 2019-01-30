@@ -20,6 +20,9 @@
         "Visibility": 0
     }],
     "DefaultValue": {
-        "Type": { "Id": "c5fd033c18604a27b21105484f38cf0a", "Name": "ScenePathData" }
+        "Type": { "Id": "c5fd033c18604a27b21105484f38cf0a", "Name": "ScenePathData" },
+        "Properties": {
+            "scenePath": "chipodoy"
+        }
     }
 }]

@@ -8,12 +8,6 @@
     "TypeCode": "Enum",
     "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
     "Fields": [{
-        "Id": "5b1868b3c8d84ee6b31c02d24e40d953",
-        "Name": "NULL",
-        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
-        "Array": false,
-        "Visibility": 0
-    }, {
         "Id": "95a6f13528c844d58b50354bbba6c6d1",
         "Name": "SceneMgr",
         "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
@@ -41,7 +35,6 @@
     "DefaultValue": {
         "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
         "Properties": {
-            "NULL": -1,
             "SceneMgr": 0,
             "Bootstrap": 1,
             "Scene1": 2,
