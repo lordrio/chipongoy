@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "dfc83173f48b4cbb82f2ae3fc8a646dd",
+    "Name": "SimpleDraggerTag",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "dfc83173f48b4cbb82f2ae3fc8a646dd", "Name": "SimpleDraggerTag" }
+    }
+}]

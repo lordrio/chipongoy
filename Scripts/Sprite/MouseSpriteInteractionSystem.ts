@@ -39,6 +39,8 @@ namespace game {
                                     
                                     if(up && !data.drag) {
                                         data.clicked = true;
+                                    } if(up && data.drag) {
+                                        data.drag = false;
                                     } else {
                                         data.clicked = false;
                                     }

@@ -242,22 +242,6 @@
             "isInteractable": true
         }
     }, {
-        "Type": { "Id": "f0155b591121baf9dff767e8e86c086f", "Name": "Sprite2DBorder" },
-        "Properties": {
-            "bottomLeft": {
-                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
-                "Properties": {
-                    "x": 0,
-                    "y": 0
-                }
-            },
-            "topRight": {
-                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
-                "Properties": {
-                    "x": 0,
-                    "y": 0
-                }
-            }
-        }
+        "Type": { "Id": "dfc83173f48b4cbb82f2ae3fc8a646dd", "Name": "SimpleDraggerTag" }
     }]
 }]
