@@ -1,0 +1,77 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "b3baf62ae1d244869e1e33543a2ae4a4",
+    "Name": "MouseSpriteInteractionData",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "c220807fe3164a47b592921502c4e251",
+        "Name": "camera",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "4a897d31b6db451aaa8ab87bc4b4968d",
+        "Name": "hover",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "527f00b82ce54fb492d0ff176559dd27",
+        "Name": "down",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "2549cd9d721a48c885f684b35263601a",
+        "Name": "lastDown",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "31f10a8e2c404a74bed8db604f4c7df7",
+        "Name": "clicked",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "ac9f9e644b6d4ed3b81caabebf6266b8",
+        "Name": "isInteractable",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "78badb0534b347229d7d3842a3ee82c9",
+        "Name": "mouseButtonCode",
+        "FieldType": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "36b1796562134945b176534824068c2d",
+        "Name": "clickDragTreshold",
+        "FieldType": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "601fb6547e524393ba10af54db49062b",
+        "Name": "tresholdCounter",
+        "FieldType": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "4fe39699017349c2be39d975e0c2aa80",
+        "Name": "drag",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "b3baf62ae1d244869e1e33543a2ae4a4", "Name": "MouseSpriteInteractionData" },
+        "Properties": {
+            "isInteractable": true,
+            "clickDragTreshold": 0.5
+        }
+    }
+}]

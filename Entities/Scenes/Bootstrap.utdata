@@ -8,7 +8,8 @@
         { "$TypeId": 9, "Id": "65e7c41a347d43b3aecdb050c45ca9b6", "Name": "Camera" },
         { "$TypeId": 9, "Id": "e59cfc0618af4c92a6ae48f5a01dd73f", "Name": "Entity" },
         { "$TypeId": 9, "Id": "fe0ae816ebe4490897fb72c1dfccede4", "Name": "Entity1" },
-        { "$TypeId": 9, "Id": "65a06f8a969c405f8aa0005afda14bcd", "Name": "Sprite" }
+        { "$TypeId": 9, "Id": "65a06f8a969c405f8aa0005afda14bcd", "Name": "Sprite" },
+        { "$TypeId": 9, "Id": "14339bb5f3b04f7aa257ea0943f79fcd", "Name": "Sprite" }
     ]
 },
 {
@@ -33,10 +34,11 @@
             "clearFlags": {
                 "$TypeId": 8,
                 "Type": { "Id": "76a06ddd38e99125d930e77c6a287872", "Name": "CameraClearFlags" },
-                "Id": "fbd267d0780374b1af81278eb2b5a77d",
-                "Name": "Nothing",
-                "Value": 0
+                "Id": "9faedc246f34513076701ef66b5ad74f",
+                "Name": "SolidColor",
+                "Value": 1
             },
+            "depth": -1,
             "layerMask": 1
         }
     }]
@@ -50,6 +52,12 @@
     "Layer": 0,
     "Components": [{
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
     }]
 },
 {
@@ -77,7 +85,8 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "y": 47.73
+                    "x": -171.6,
+                    "y": 66.5
                 }
             }
         }
@@ -134,8 +143,8 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": 5,
-                    "y": -24
+                    "x": 4,
+                    "y": 100
                 }
             }
         }
@@ -147,8 +156,8 @@
             "scale": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": 94.49999,
-                    "y": 27
+                    "x": 200,
+                    "y": 200
                 }
             }
         }
@@ -164,6 +173,73 @@
                     "a": 1
                 }
             }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 0
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "14339bb5f3b04f7aa257ea0943f79fcd",
+    "Name": "Sprite",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "e59cfc0618af4c92a6ae48f5a01dd73f", "Name": "Entity" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 4,
+                    "y": -100
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 200,
+                    "y": 200
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.8962264,
+                    "g": 0.7291622,
+                    "b": 0.1986917,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 0
+        }
+    }, {
+        "Type": { "Id": "b3baf62ae1d244869e1e33543a2ae4a4", "Name": "MouseSpriteInteractionData" },
+        "Properties": {
+            "camera": { "$TypeId": 9, "Id": "65e7c41a347d43b3aecdb050c45ca9b6", "Name": "Camera" },
+            "isInteractable": true
         }
     }]
 }]

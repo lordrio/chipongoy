@@ -60,7 +60,15 @@
         { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
         { "Id": "aab685d8205841a8872caf1561aa4ca0", "Name": "Main" },
         { "Id": "e46c24fb4d9a01e79b109bbcf6d24260", "Name": "UTiny.UILayout" },
-        { "Id": "0b0e260844fa6632977aa15579b42291", "Name": "UTiny.Text" }
+        { "Id": "0b0e260844fa6632977aa15579b42291", "Name": "UTiny.Text" },
+        { "Id": "60feebda86c36292119505b0bd2ac3e9", "Name": "UTiny.UIControls" },
+        { "Id": "4ae56f767bc87e1c32e79caa0f3b736a", "Name": "UTiny.UIControlsExtensions" },
+        { "Id": "77778da25aeb380ab7e46deb6d495cdc", "Name": "UTiny.Tweens" },
+        { "Id": "dcb14cd3f313167b855850e2cd34055a", "Name": "UTiny.Shape2D" },
+        { "Id": "36f73ad23c8a63c53fa510f0621474f5", "Name": "UTiny.HitBox2D" },
+        { "Id": "91f1133fa9293ef9b61da0f1e6cbceeb", "Name": "UTiny.Animation" },
+        { "Id": "15bc9f92fdbddc0d66efe66e372d71b9", "Name": "UTiny.Watchers" },
+        { "Id": "259902b84b3ed0f7213a1b5e37040709", "Name": "UTiny.Physics2D" }
     ],
     "StartupEntityGroup": { "Id": "cb01410a4fdd432fbd49f9d5deef5354", "Name": "SceneMgr" }
 },
@@ -79,22 +87,8 @@
             "autoSizeToFrame": true
         }
     }, {
-        "Type": { "Id": "826d9c24d18f44908230a84b9c7666a7", "Name": "testconfig" },
-        "Properties": {
-            "NewField": {
-                "Type": { "Id": "adb7a05497054c56a124c013e21f4ca0", "Name": "teststruct" },
-                "Items": [{
-                    "Type": { "Id": "adb7a05497054c56a124c013e21f4ca0", "Name": "teststruct" },
-                    "Properties": {
-                        "NewField": {
-                            "Type": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
-                            "Items": [
-                                0
-                            ]
-                        }
-                    }
-                }]
-            }
-        }
+        "Type": { "Id": "826d9c24d18f44908230a84b9c7666a7", "Name": "testconfig" }
+    }, {
+        "Type": { "Id": "38283a6cef9faa790b5c9936163d59e3", "Name": "Physics2DConfig" }
     }]
 }]

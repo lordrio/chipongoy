@@ -7,7 +7,8 @@
     "Entities": [
         { "$TypeId": 9, "Id": "65e5ca9f154540a89b2e7f1156f8cdbe", "Name": "Canvas" },
         { "$TypeId": 9, "Id": "3e80f05d4a9341f3bffaffac2a910a7c", "Name": "Text" },
-        { "$TypeId": 9, "Id": "f4c6578714294f458198b4abc1bfb8e1", "Name": "CanvasCamera" }
+        { "$TypeId": 9, "Id": "f4c6578714294f458198b4abc1bfb8e1", "Name": "CanvasCamera" },
+        { "$TypeId": 9, "Id": "ec69ce66f67b47438f9d3b8b2c6b66da", "Name": "ButtonChipodoy" }
     ]
 },
 {
@@ -61,9 +62,31 @@
             "parent": { "$TypeId": 9, "Id": "65e5ca9f154540a89b2e7f1156f8cdbe", "Name": "Canvas" }
         }
     }, {
-        "Type": { "Id": "5ddde0b906f5f2c3b13d17f455d6ef5e", "Name": "RectTransform" }
+        "Type": { "Id": "5ddde0b906f5f2c3b13d17f455d6ef5e", "Name": "RectTransform" },
+        "Properties": {
+            "sizeDelta": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -3
+                }
+            },
+            "anchoredPosition": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1.5
+                }
+            }
+        }
     }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1.5
+                }
+            }
+        }
     }, {
         "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
     }, {
@@ -114,6 +137,12 @@
         }
     }, {
         "Type": { "Id": "6f5ed9937f81d1780663edc21a6f0da2", "Name": "NativeFont" }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "layer": 0,
+            "order": 100
+        }
     }]
 },
 {
@@ -135,7 +164,104 @@
         "Type": { "Id": "12692383f3fef3bb74c209888c5b0939", "Name": "Camera2D" },
         "Properties": {
             "halfVerticalSize": 200,
-            "depth": -2
+            "depth": 3,
+            "layerMask": 32
         }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "ec69ce66f67b47438f9d3b8b2c6b66da",
+    "Name": "ButtonChipodoy",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 5,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "65e5ca9f154540a89b2e7f1156f8cdbe", "Name": "Canvas" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "5ddde0b906f5f2c3b13d17f455d6ef5e", "Name": "RectTransform" },
+        "Properties": {
+            "anchorMin": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            },
+            "anchorMax": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            },
+            "sizeDelta": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 50,
+                    "y": 50
+                }
+            },
+            "anchoredPosition": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 50,
+                    "y": 50
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 200
+        }
+    }, {
+        "Type": { "Id": "95ff57ed0598446933927bc634433a47", "Name": "Button" },
+        "Properties": {
+            "sprite2DRenderer": { "$TypeId": 9, "Id": "ec69ce66f67b47438f9d3b8b2c6b66da", "Name": "Entity" },
+            "transition": {
+                "Type": { "Id": "65e6144818520fd56fba1f04bf8fb271", "Name": "TransitionEntity" },
+                "Properties": {
+                    "colorTint": {
+                        "Type": { "Id": "7fb267354eaa3938a25c3a9513db8724", "Name": "ColorTint" },
+                        "Properties": {
+                            "hover": {
+                                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                                "Properties": {
+                                    "r": 1,
+                                    "g": 0.2783019,
+                                    "b": 0.2783019,
+                                    "a": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "0efd2ae60c7796b3a911cb3247c89bd9", "Name": "MouseInteraction" }
     }]
 }]

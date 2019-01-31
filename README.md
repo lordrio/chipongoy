@@ -24,3 +24,6 @@ unity tiny play around
     e.g. ore deposits, trees etc
 - npc (?) this one is done by serverside
 - other characters (online mode)
+- UI system
+    - steal custom button from match3
+    - uiwindow system
