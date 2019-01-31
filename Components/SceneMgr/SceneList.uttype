@@ -5,6 +5,9 @@
     "ExportFlags": 0,
     "Unlisted": false,
     "Visibility": 0,
+    "Documentation": {
+        "Summary": "SceneList -> list of scene in the project\nSceneChildList -> set dependencies to parent sceneId on what it needed to load if the parent is loaded\nscenePinList -> define the relationship between scenes by pin number, called in code => gotoPin(pinId) will change the scene accordingly"
+    },
     "TypeCode": "Component",
     "Fields": [{
         "Id": "f4361e28ac73412bb2932c535dd9e04b",

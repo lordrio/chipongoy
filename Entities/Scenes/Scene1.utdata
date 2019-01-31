@@ -16,7 +16,7 @@
     "Name": "Canvas",
     "Enabled": true,
     "Static": false,
-    "Layer": 0,
+    "Layer": 5,
     "Components": [{
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
     }, {
@@ -30,7 +30,21 @@
     }, {
         "Type": { "Id": "757a06c4ae1ec5fccccd28eb89a6dc54", "Name": "UICanvas" },
         "Properties": {
-            "camera": { "$TypeId": 9, "Id": "f4c6578714294f458198b4abc1bfb8e1", "Name": "CanvasCamera" }
+            "camera": { "$TypeId": 9, "Id": "f4c6578714294f458198b4abc1bfb8e1", "Name": "CanvasCamera" },
+            "uiScaleMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "0accc10de1131b44701da611a92a0f65", "Name": "UIScaleMode" },
+                "Id": "9d7c7416dafcd189680613e618163ec5",
+                "Name": "ScaleWithScreenSize",
+                "Value": 1
+            },
+            "referenceResolution": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 800,
+                    "y": 600
+                }
+            }
         }
     }]
 },
@@ -40,7 +54,7 @@
     "Name": "Text",
     "Enabled": true,
     "Static": false,
-    "Layer": 0,
+    "Layer": 5,
     "Components": [{
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
         "Properties": {
@@ -73,14 +87,23 @@
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
                     "x": 0.5,
-                    "y": 1
+                    "y": 0.5
                 }
             }
         }
     }, {
         "Type": { "Id": "ced0260f12f72499bae7fea4e1df92b7", "Name": "Text2DStyle" },
         "Properties": {
-            "size": 50
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.9056604,
+                    "g": 0.8964765,
+                    "b": 0.2264151,
+                    "a": 1
+                }
+            },
+            "size": 30
         }
     }, {
         "Type": { "Id": "00d6bc791188d69186aa19bf8f6652a8", "Name": "RectTransformFinalSize" }
@@ -99,7 +122,7 @@
     "Name": "CanvasCamera",
     "Enabled": true,
     "Static": false,
-    "Layer": 0,
+    "Layer": 5,
     "Components": [{
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
     }, {
@@ -109,6 +132,10 @@
     }, {
         "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
     }, {
-        "Type": { "Id": "12692383f3fef3bb74c209888c5b0939", "Name": "Camera2D" }
+        "Type": { "Id": "12692383f3fef3bb74c209888c5b0939", "Name": "Camera2D" },
+        "Properties": {
+            "halfVerticalSize": 200,
+            "depth": -2
+        }
     }]
 }]

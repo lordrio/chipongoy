@@ -78,5 +78,23 @@
             "height": 1080,
             "autoSizeToFrame": true
         }
+    }, {
+        "Type": { "Id": "826d9c24d18f44908230a84b9c7666a7", "Name": "testconfig" },
+        "Properties": {
+            "NewField": {
+                "Type": { "Id": "adb7a05497054c56a124c013e21f4ca0", "Name": "teststruct" },
+                "Items": [{
+                    "Type": { "Id": "adb7a05497054c56a124c013e21f4ca0", "Name": "teststruct" },
+                    "Properties": {
+                        "NewField": {
+                            "Type": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+                            "Items": [
+                                0
+                            ]
+                        }
+                    }
+                }]
+            }
+        }
     }]
 }]

@@ -85,9 +85,9 @@
                         "srcSceneId": {
                             "$TypeId": 8,
                             "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
-                            "Id": "3a7cc5332a6b409e92ab4b251969ccd0",
-                            "Name": "Bootstrap",
-                            "Value": 1
+                            "Id": "95a6f13528c844d58b50354bbba6c6d1",
+                            "Name": "SceneMgr",
+                            "Value": 0
                         },
                         "destSceneId": {
                             "$TypeId": 8,
@@ -104,9 +104,9 @@
                         "srcSceneId": {
                             "$TypeId": 8,
                             "Type": { "Id": "85a05c57c8754406a94175e4ae0e954a", "Name": "SceneId" },
-                            "Id": "3a7cc5332a6b409e92ab4b251969ccd0",
-                            "Name": "Bootstrap",
-                            "Value": 1
+                            "Id": "95a6f13528c844d58b50354bbba6c6d1",
+                            "Name": "SceneMgr",
+                            "Value": 0
                         },
                         "destSceneId": {
                             "$TypeId": 8,

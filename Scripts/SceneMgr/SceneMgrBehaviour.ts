@@ -18,12 +18,12 @@ namespace game {
         // this method is called for each entity matching the SceneMgrFilter signature, once when enabled
         OnEntityEnable():void { 
             // run the processSceneChange(?) once
-            SceneMgr.Instance.Initialize(this.data);
+            SceneMgr.Instance.Initialize(this.data, this.world);
         }
         
         // this method is called for each entity matching the SceneMgrFilter signature, every frame it's enabled
         OnEntityUpdate():void {
-            SceneMgr.Instance.UpdateSystem();
+            SceneMgr.Instance.UpdateSystem(this.world);
         }
 
         // this method is called for each entity matching the SceneMgrFilter signature, once when disabled
