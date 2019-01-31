@@ -2,6 +2,8 @@
 namespace game {
 
     /** New System */
+    ut.executeAfter(ut.Shared.InputFence)
+    ut.executeBefore(ut.Shared.UserCodeStart)
     export class MouseSpriteInteractionSystem extends ut.ComponentSystem {
         
         OnUpdate():void {
