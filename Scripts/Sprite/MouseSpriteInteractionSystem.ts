@@ -26,14 +26,21 @@ namespace game {
                                     data.lastDown = data.down;
                                     data.down = held;
 
+                                    let prevDrag = data.drag;
                                     if(down) {
                                         data.drag = false;
+                                        data.startDrag = false;
                                         data.tresholdCounter = 0;
                                     } else if(held) {
                                         data.tresholdCounter += deltaTime;
 
                                         if (data.tresholdCounter > data.clickDragTreshold) {
                                             data.drag = true;
+                                            if (prevDrag != data.drag) {
+                                                data.startDrag = true;
+                                            } else {
+                                                data.startDrag = false;
+                                            }
                                         }
                                     }
                                     
@@ -41,6 +48,7 @@ namespace game {
                                         data.clicked = true;
                                     } if(up && data.drag) {
                                         data.drag = false;
+                                        data.startDrag = false;
                                     } else {
                                         data.clicked = false;
                                     }
@@ -52,6 +60,7 @@ namespace game {
                             data.down = false;
                             data.lastDown = false;
                             data.drag = false;
+                            data.startDrag = false;
                             data.tresholdCounter = 0;
                         }
                     });

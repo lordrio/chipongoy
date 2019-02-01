@@ -21,7 +21,22 @@ namespace game {
         // this method is called for each entity matching the SimpleDraggerFilter signature, every frame it's enabled
         OnEntityUpdate():void {
             if(this.data.mouseSprite.drag) {
-                this.data.pos.position = InputService.getPointerWorldPosition(this.world, this.data.mouseSprite.camera);
+                if (this.data.mouseSprite.startDrag) {
+                    ut.Tweens.TweenService.addTween(
+                        this.world,
+                        this.entity,
+                        ut.Core2D.TransformLocalPosition.position,
+                        this.data.pos.position,
+                        InputService.getPointerWorldPosition(this.world, this.data.mouseSprite.camera),
+                        0.1,
+                        0,
+                        ut.Core2D.LoopMode.Once,
+                        ut.Tweens.TweenFunc.InExponential,
+                        true
+                    );
+                } else {
+                    this.data.pos.position = InputService.getPointerWorldPosition(this.world, this.data.mouseSprite.camera);
+                }
             }
         }
 
